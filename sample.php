@@ -4,7 +4,7 @@ use JayChow\ConfigParser\Parser;
 
 $parser = new Parser();
 
-$parser->load('sample.conf');
+$parser->load('config.ini');
 
 
 echo "host: " . $parser->host.PHP_EOL;
